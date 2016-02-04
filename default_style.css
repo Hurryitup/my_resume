@@ -1,0 +1,8 @@
+body {
+}
+
+#name {
+    text-align: center;
+    padding: 10px; 
+    font: bold 30px helvetica sans-serif;
+}
