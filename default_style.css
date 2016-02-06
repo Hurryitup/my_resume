@@ -14,3 +14,8 @@ h1 {
     font-weight: bold;
     text-align:center;
 }
+
+#profile_pic {
+    height:100px;
+    width:75px;
+}
