@@ -7,8 +7,19 @@ body {
     /*background-repeat: repeat;*/
 }
 
-img {
-    clip-path:;
+.logo {
+    height:10%;
+    width:10%
+}
+
+#jumbocode {
+    border-radius: 50%;
+}
+
+#phe {
+    height: 15%;
+    width:15%;
+    border-radius: 50%;
 }
 
 h1 {
@@ -17,6 +28,11 @@ h1 {
     letter-spacing: -1px;
     font-weight: bold;
     text-align:center;
+}
+
+.no_link {
+    text-decoration: none;
+    color:#444;
 }
 
 .anchor_bar {
