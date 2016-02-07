@@ -70,13 +70,35 @@ ul {
 
 li {
     font-size: 25px;
-    /*list-style:inside;*/
 }
 
 #profile_pic {
-    height:25%;
-    width:25%;
+    height:22.5%;
+    width:22.5%;
     padding: 100px, 0, 100px, 0;
+}
+
+#window_pic {
+    height:100%;
+    width:100%;
+}
+
+#cathedral_large {
+    width:100%;
+    clip:rect(80px, 10px, 10px, 80px);
+}
+
+#tufts {
+    width:100%;
+}
+
+.narration {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#no_padding {
+    margin-bottom: 0px;
 }
 
 .general {
