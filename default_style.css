@@ -1,25 +1,9 @@
+/* Tag level rules */
 body {
     background-image: url("images/gray_jean.png");
     font-family: "Poiret One";
     color: #444;
     margin: 0;
-    /*padding: 6px 0px 6px 0px;*/
-    /*background-repeat: repeat;*/
-}
-
-.logo {
-    height:10%;
-    width:10%
-}
-
-#jumbocode {
-    border-radius: 50%;
-}
-
-#phe {
-    height: 15%;
-    width:15%;
-    border-radius: 50%;
 }
 
 h1 {
@@ -28,6 +12,34 @@ h1 {
     letter-spacing: -1px;
     font-weight: bold;
     text-align:center;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing:3px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 10px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 35px;
+}
+
+li {
+    font-size: 25px;
+}
+
+/*class rules*/
+.logo {
+    height:10%;
+    width:10%
 }
 
 .no_link {
@@ -45,17 +57,14 @@ h1 {
     font-size: 25px;
 }
 
-h2 {
-    font-size: 40px;
-    line-height: 44px;
-    letter-spacing:3px;
+
+.general {
     text-align: center;
-    text-decoration: underline;
 }
 
-h3 {
-    font-size: 30px;
-    line-height: 10px;
+.links {
+    font-size: 35px;
+    color: #444
 }
 
 .designation {
@@ -63,19 +72,25 @@ h3 {
     line-height: 10px;
 }
 
-ul {
-    list-style-type: none;
-    line-height: 35px;
+.narration {
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
-li {
-    font-size: 25px;
+/*id rules*/
+#jumbocode {
+    border-radius: 50%;
+}
+
+#phe {
+    height: 15%;
+    width:15%;
+    border-radius: 50%;
 }
 
 #profile_pic {
     height:22.5%;
     width:22.5%;
-    padding: 100px, 0, 100px, 0;
 }
 
 #window_pic {
@@ -92,22 +107,8 @@ li {
     width:100%;
 }
 
-.narration {
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-
 #no_padding {
     margin-bottom: 0px;
-}
-
-.general {
-    text-align: center;
-}
-
-.links {
-    font-size: 35px;
-    color: #444
 }
 
 #resume_link {
