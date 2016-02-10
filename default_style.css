@@ -30,7 +30,7 @@ li {
 
 @media (max-device-width=750px){
     h3 ul li{
-            line-height: 1.1em;
+            line-height: 5em;
     }
 }
 
