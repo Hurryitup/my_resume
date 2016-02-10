@@ -73,13 +73,13 @@ h2 {
 }
 
 .designation {
-    font-size: 25px;
-    line-height: 10px;
+    font-size: 1.5625em;
+    line-height: 0.625em;
 }
 
 @media (max-device-width:750px){
     .designation{
-        line-height: 15px;
+        line-height: 1.5em;
     }
 }
 
