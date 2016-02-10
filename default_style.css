@@ -28,7 +28,7 @@ li {
     font-size: 1.5625em;
 }
 
-@media (max-device-width=750px){
+@media (max-device-width:750px){
     h3 ul li{
             line-height: 5em;
     }
@@ -77,7 +77,7 @@ h2 {
     line-height: 10px;
 }
 
-@media (max-device-width=750px){
+@media (max-device-width:750px){
     .designation{
         line-height: 15px;
     }
