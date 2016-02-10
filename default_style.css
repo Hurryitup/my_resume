@@ -111,7 +111,7 @@ li {
     margin-bottom: 0px;
 }
 
-@media  screen and (min-device-width:800px){
+@media  screen and (min-device-width:200px){
     #resume_link{
         display: inline-block;
         min-width: 25%;
