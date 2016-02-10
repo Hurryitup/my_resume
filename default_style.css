@@ -29,7 +29,7 @@ li {
 }
 
 @media (max-device-width=750px){
-    h3 ul li p{
+    h3 ul li{
             line-height: 5em;
     }
 }
@@ -75,6 +75,12 @@ h2 {
 .designation {
     font-size: 25px;
     line-height: 10px;
+}
+
+@media (max-device-width=750px){
+    .designation{
+        line-height: 15px;
+    }
 }
 
 .narration {
